@@ -70,7 +70,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid yellow;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -79,6 +79,7 @@ header .profile-image:hover {
 .tag {
   background-color: #efefef;
   color: black;
+  opacity: 0.85;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -100,6 +101,30 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #4b8bca;
+}
+
+div .hobbies-image {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  width: 175px;
+  height: 175px;
+}
+
+div .hobbies-image-2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 175px;
+  height: 175px;
+  border: 7px solid beige;
+}
+
+div .goals-image {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 12px;
+  width: 400px;
+  height: 200px;
 }
 
 ul.skills {
